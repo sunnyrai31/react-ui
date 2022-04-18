@@ -4,6 +4,7 @@ import NxWelcome from './nx-welcome';
 import Header from "../../../../libs/common-ui/src/lib/header/header";
 import Card from "./card/card";
 import {useState} from "react";
+import Test from "./test/test";
 
 export interface AppProps {
 }
@@ -113,10 +114,11 @@ export function App() {
   return (
     <>
       <Header/>
-      <button className={'btn btn-primary'} onClick={removeList}>click me</button>
-      <button className={'btn btn-primary'} onClick={resetList}>reset </button>
-      {listElement}
-    </>
+      {/*<button className={'btn btn-primary'} onClick={removeList}>click me</button>*/}
+      {/*<button className={'btn btn-primary'} onClick={resetList}>reset </button>*/}
+      {/*{listElement}*/}
+      <Test></Test>
+      </>
   );
 }
 
