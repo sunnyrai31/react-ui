@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "circlehealth": "apps/circlehealth",
-    "circlehealth-e2e": "apps/circlehealth-e2e"
+    "circlehealth-e2e": "apps/circlehealth-e2e",
+    "common-ui": "libs/common-ui"
   }
 }
